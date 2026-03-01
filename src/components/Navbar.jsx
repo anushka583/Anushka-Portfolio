@@ -7,7 +7,7 @@ function Navbar() {
   const links = [
     { name: "About", href: "#about"},
     { name: "Education", href: "#education"},
-    { name: "Achievements & Certificates", href: "#achievements"},
+    { name: "Achievements and Certificates", href: "#achievements"},
     { name: "Projects", href: "#projects"},
     { name: "Skills", href: "#skills"},
     { name: "Hobbies", href: "#hobbies"},
