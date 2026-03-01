@@ -35,8 +35,8 @@ function About() {
         <ScrollReveal>
           <p className="text-gray-400 text-lg leading-relaxed">
             I am also a recipient of the <span className="text-primary font-medium">
-            Infosys STEM Stars Scholarship</span>, awarded in recognition of 
-            academic merit and potential in technology. This recognition has 
+            Infosys Foundation STEM Stars Scholarship</span>, awarded in recognition of 
+            academic merit and potential in Science and technology. This recognition has 
             strengthened my commitment to research-oriented problem solving and 
             building secure, efficient, and thoughtfully engineered solutions.
           </p>
