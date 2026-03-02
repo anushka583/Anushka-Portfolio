@@ -22,7 +22,7 @@ function Projects() {
         "Explored Human-Computer Interaction principles to enhance usability and gestutre intuitiveness.",
         "Structured modular vision components for scalability and future ML-based gesture classification integration.",
       ],
-      tech: ["Python", "OpenCV", "MediaPipe", "Streamlit"],
+      tech: ["Python", "OpenCV", "MediaPipe", "NumPy"],
       github: "https://github.com/anushka583/gestured-based-virtual-interface",
     },
     {
@@ -39,7 +39,7 @@ function Projects() {
         "Structured backend components with separation of concerns between ingestion, querying, and visualization layers",
         "Integrated secure configuration management using environment variables to prevent credential exposure."
       ],
-      tech: ["Python", "Streamlit", "MySQL"],
+      tech: ["Python", "Streamlit", "MySQL", "Pandas"],
       github:
         "https://github.com/anushka583/real-time-cybersecurity-log-monitor",
     },
