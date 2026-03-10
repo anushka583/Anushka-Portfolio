@@ -56,7 +56,7 @@ function Achievements() {
           </p>
 
           <p className="text-gray-300 mb-4">
-            Awarded under the reputed, Infosys Foundation STEM Stars Scholarship Program 2024-25 in recognition of academic excellence and technical potential. 
+            Awarded under the prestigious, Infosys Foundation STEM Stars Scholarship Program 2024-25 in recognition of academic excellence and technical potential. 
             This scholarship marked a defining milestone in my journey, reinforcing a research-oriented and systems-driven engineering mindset. 
             It strengthened my academic discipline and pushed me to be consistent.
           </p>

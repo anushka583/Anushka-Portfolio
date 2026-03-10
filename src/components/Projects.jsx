@@ -11,7 +11,7 @@ function Projects() {
     {
       id: 1,
       title: "AirUI — Computer Vision Powered Touchless HCI Framework",
-      status: "Ongoing",
+      status: "Completed",
       category: "Computer Vision & HCI",
       description:
         "A Gesture-Based Virtual Air Interface System integrated using MediaPipe and OpenCV.",
