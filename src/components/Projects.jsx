@@ -10,7 +10,24 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "AirUI — Computer Vision Powered Touchless HCI Framework",
+      title: "HUMANEX - Verifying Life Beyond Pixels",
+      status: "Ongoing",
+      category: "AI/ML, Computer Vision, Behavioral Biometrics, Human Verification & Security",
+      description: 
+        "A Multi-Modal Human Authenticity Engine",
+      bullets: [
+        "The purpose of HUMANEX is to differentiate real humans from AI-generated entities such as deepfakes, voice clones, and automated agents.",
+        "Designing a verification pipeline that analyzes biological signals including blink patterns, eye movement, and facial micro-movements using computer vision techniques.",
+        "Exploring behavioral entropy modeling to detect deterministic interaction pattern often produced by AI agents.",
+        "Integration of multi-modal features into a machine learning-based human authenticity scoring system.",
+        "Aiming to strengthen digital trust and fraud prevention in environments vulnerable to AI impersonation, such as fintech and online communication platforms.",
+      ],
+      tech: ["Python", "FastAPI", "OpenCV", "MediaPipe", "Librosa", "Scikit-learn", "React", "Docker", "Kubernetes", "AWS"],
+      github: "https://github.com/anushka583/HUMANEX",
+    },
+    {
+      id: 2,
+      title: "AirUI — Computer Vision Powered Touchless Human-Computer Interaction Framework",
       status: "Completed",
       category: "Computer Vision & HCI",
       description:
@@ -22,11 +39,11 @@ function Projects() {
         "Explored Human-Computer Interaction principles to enhance usability and gestutre intuitiveness.",
         "Structured modular vision components for scalability and future ML-based gesture classification integration.",
       ],
-      tech: ["Python", "OpenCV", "MediaPipe", "NumPy"],
+      tech: ["Python", "OpenCV", "MediaPipe", "NumPy", "PyAutoGUI", "PyQt5"],
       github: "https://github.com/anushka583/gestured-based-virtual-interface",
     },
     {
-      id: 2,
+      id: 3,
       title: "ThreatPulse — Live Security Log Monitoring & Behavioral Analysis System",
       status: "Completed",
       category: "Security Analytics",
