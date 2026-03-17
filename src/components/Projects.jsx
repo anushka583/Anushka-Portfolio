@@ -12,7 +12,7 @@ function Projects() {
       id: 1,
       title: "HUMANEX - Verifying Life Beyond Pixels",
       status: "Ongoing",
-      category: "AI/ML, Computer Vision, Behavioral Biometrics, Human Verification & Security",
+      category: "AI/ML • Computer Vision • Behavioral Biometrics • Human Verification & Security",
       description: 
         "A Multi-Modal Human Authenticity Engine",
       bullets: [
@@ -22,7 +22,7 @@ function Projects() {
         "Integration of multi-modal features into a machine learning-based human authenticity scoring system.",
         "Aiming to strengthen digital trust and fraud prevention in environments vulnerable to AI impersonation, such as fintech and online communication platforms.",
       ],
-      tech: ["Python", "FastAPI", "OpenCV", "MediaPipe", "Librosa", "Scikit-learn", "React", "Docker", "Kubernetes", "AWS"],
+      tech: ["Python", "FastAPI", "OpenCV", "MediaPipe", "Librosa", "Scikit-learn", "WebRTC", "React", "HTML", "CSS", "Docker", "Kubernetes", "AWS"],
       github: "https://github.com/anushka583/HUMANEX",
     },
     {
@@ -48,7 +48,7 @@ function Projects() {
       status: "Completed",
       category: "Security Analytics",
       description:
-        "Developed a real-time Authentication Monitoring System using Python and MySQL that detects Brute-Force and Anomalous login beahaviour through continuous Log Analysis.",
+        "Developed a real-time Authentication Monitoring System using Python and MySQL that detects Brute-Force and Anomalous login behavior through continuous Log Analysis.",
       bullets: [
         "Designed and implemented a modular log ingestion system in Python to simulate strctured authentication events in real time.",
         "Implemented brute-force detection using time-windowed analysis(GROUP BY, HAVING, threshold logic) to model authentication abuse scenarios similar to simplified SIEM rule engines.",
