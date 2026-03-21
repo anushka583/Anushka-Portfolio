@@ -10,11 +10,29 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Abstractly - Abstractive Text Summarization Web Application",
+      status: "Ongoing",
+      category: "Full-Stack Development & NLP",
+      description: "NLP-based full-stack AI application that generates concise summaries from long documents using transformer architectures.",
+      bullets: [
+        "Built an AI-powered full-stack web application for abstractive text summarization using transformer-based NLP models.",
+        "Designed and implemented aa modular backend architecture using FastAPI with clear separation of API, service, and inference layers.",
+        "Developed a custom NLP inference pipeline with chunking and multi-pass summarization to handle long-form documents.",
+        "Engineered RESTful APIs for text processing and summarization, ensuring scalable and maintainable backend logic.",
+        "Integrated transformer-based models via Hugging Face Transformers for abstractive summarization using DistilBART (XSum).",
+        "Implemented preprocessing and post-processing techniques to improve summary coherence and reduce redundancy.",
+        "The system was architected with a SaaS-oriented mindset, enabling future integration of user management, persistence, and scalable deployment.",
+      ],
+      tech: ["Python", "FastAPI", "REST APIs", "React (Vite)", "HTML5", "Tailwind CSS", "TypeScript", "Framer Motion", "Hugging Face Transformers", "DistilBART (XSum)", "PyTorch"],
+      github: "https://github.com/anushka583/Abstractly",
+    },
+    {
+      id: 2,
       title: "HUMANEX - Verifying Life Beyond Pixels",
       status: "Ongoing",
       category: "AI/ML • Computer Vision • Behavioral Biometrics • Human Verification & Security",
       description: 
-        "A Multi-Modal Human Authenticity Engine",
+        "This is a collaborative project on Multi-Modal Human Authenticity Engine.",
       bullets: [
         "The purpose of HUMANEX is to differentiate real humans from AI-generated entities such as deepfakes, voice clones, and automated agents.",
         "Designing a verification pipeline that analyzes biological signals including blink patterns, eye movement, and facial micro-movements using computer vision techniques.",
@@ -22,11 +40,11 @@ function Projects() {
         "Integration of multi-modal features into a machine learning-based human authenticity scoring system.",
         "Aiming to strengthen digital trust and fraud prevention in environments vulnerable to AI impersonation, such as fintech and online communication platforms.",
       ],
-      tech: ["Python", "FastAPI", "OpenCV", "MediaPipe", "Librosa", "Scikit-learn", "WebRTC", "React", "HTML", "CSS", "Docker", "Kubernetes", "AWS"],
+      tech: ["Python", "FastAPI", "REST APIs", "OpenCV", "MediaPipe", "Librosa", "Scikit-learn", "WebRTC", "React", "HTML", "CSS", "Docker", "Kubernetes", "AWS"],
       github: "https://github.com/anushka583/HUMANEX",
     },
     {
-      id: 2,
+      id: 3,
       title: "AirUI — Computer Vision Powered Touchless Human-Computer Interaction Framework",
       status: "Completed",
       category: "Computer Vision & HCI",
@@ -43,7 +61,7 @@ function Projects() {
       github: "https://github.com/anushka583/gestured-based-virtual-interface",
     },
     {
-      id: 3,
+      id: 4,
       title: "ThreatPulse — Live Security Log Monitoring & Behavioral Analysis System",
       status: "Completed",
       category: "Security Analytics",

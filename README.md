@@ -21,12 +21,25 @@ Rather than being a static resume replacement, this project is a continuously ev
 
 ## Tech Stack:
 
+### Frontend & UI 
 - React (Vite)
-- Tailwind CSS
-- EmailJS
-- React Icons
+- CSS3 (Tailwind CSS)
+- JavaScript (ES6+)
+- HTML5
 - Framer Motion
-- Vercel Deployment
+
+### Application Behavior & Integration
+- EmailJS (Client-side email handling)
+- Environment Variables (Vite-based configuaration)
+
+### Tooling & Dev
+- Git (Version Control)
+- npm (Package Management)
+- ESLint (Code Quality)
+- Vite (Build Tool & Dev Server)
+
+### Deployment 
+- Vercel (CI/CD & Hosting)
 
 ---
 
